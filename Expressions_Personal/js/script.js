@@ -8,7 +8,7 @@ var golfHoles = prompt("How many holes of golf are you playing?");
 var ballsUsed = prompt("How many balls do you loose in a round?");
 
 
-var ballsNeeded = golfHoles / golfRound * ballsUsed;
+var ballsNeeded = prompt(golfHoles / golfRound * ballsUsed + 1);
 
 
 console.log(ballsNeeded)
