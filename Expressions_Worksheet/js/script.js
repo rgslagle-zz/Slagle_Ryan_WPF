@@ -1,14 +1,19 @@
 //Ryan Slagle; June 10, 2014; Expressions Worksheet
 
-//Pizza Part 1
+//Order of Operations
 
-var slices = 8; //number of people at the party
-var person = 10; //number of people at the party
-var pizza = 10; //number of pizzas ordered
+var quiz1 = 90;
+var quiz2 = 80;
+var quiz3 = 70;
+var quiz4 = 85;
 
-var piecesPizza = pizza * slices/person;
+//the average is the sum of the items divided by the number of items
 
-console.log(piecesPizza);
+var average = (quiz1 + quiz2 + quiz3 +quiz4)/4;
+
+console.log(average);
+
+
 
 
 
