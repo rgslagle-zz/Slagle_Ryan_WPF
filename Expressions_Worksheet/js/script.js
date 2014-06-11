@@ -1,13 +1,14 @@
 //Ryan Slagle; June 10, 2014; Expressions Worksheet
 
-//How old is sparky in dog years
+//Pizza Part 1
 
-var sparky = 1; //variable for sparky in human years
+var slices = 8; //number of people at the party
+var person = 10; //number of people at the party
+var pizza = 10; //number of pizzas ordered
 
-var dogYears = 7; //variable for dog years
+var piecesPizza = pizza * slices/person;
 
-var sparkyAge = sparky * dogYears; // Sparky's age in dog years!
+console.log(piecesPizza);
 
-console.log(sparkyAge);
 
 
