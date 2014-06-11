@@ -1,12 +1,13 @@
 //Ryan Slagle; June 10, 2014; Expressions Worksheet
 
-//Calculate the area of a rectangle given the width and height of the rectangle.
+//How old is sparky in dog years
 
-var height = 3;  //create a variable for the height
-var width = 4; //create a variable for the width
+var sparky = 1; //variable for sparky in human years
 
-var area = height * width; //create a variable for the height times width for area
+var dogYears = 7; //variable for dog years
 
-console.log(area); //print out result in console
+var sparkyAge = sparky * dogYears; // Sparky's age in dog years!
+
+console.log(sparkyAge);
 
 
