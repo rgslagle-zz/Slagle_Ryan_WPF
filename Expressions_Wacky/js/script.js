@@ -1,11 +1,9 @@
 //Ryan Slagle; June 10, 2014; Expressions_Wacky
 
 
-var empNames = ["Kurtis", "Monica", "Damita", "Nikita", "Malissa"];
+var empSales = [100, 200, 300, 400, 500]; //Sales Reported by Staff
 
-var salesToday = ["100", "200", "300", "400", "500"];
+var totalSales = empSales[0] + empSales[1] + empSales[2] + empSales[3] + empSales[4]; //Total Sales Reported
 
-var totalSales += empNames
 
-var dailyResults += empNames[0]
-
+console.log(totalSales);
