@@ -8,10 +8,10 @@ var golfHoles = prompt("How many holes of golf are you playing?");//First Variab
 var ballsUsed = prompt("How many balls do you loose in a round?");//Second Variable
 
 
-var ballsNeeded = golfHoles / golfRound * ballsUsed + 1;// Adding 1 so you can finish the round!
+var ballsNeeded = prompt (golfHoles / golfRound * ballsUsed + 1);// Adding 1 so you can finish the round!
+var ballsNeeded = golfHoles / golfRound * ballsUsed + 1; //Creating extra line for the console.log
 
-
-console.log(ballsNeeded)
+console.log(ballsNeeded);
 
 
 
