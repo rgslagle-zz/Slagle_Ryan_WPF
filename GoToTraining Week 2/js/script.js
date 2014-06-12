@@ -17,7 +17,7 @@ console.log(name);
 
 //alert the user and tell them hi
 
-alert("Welcome " +name + " we have a few more questions for you!");
+alert("Welcome" +name + " we have a few more questions for you!");
 
 //Create variable and prompt user for date of birth
 
@@ -26,11 +26,12 @@ var yearBorn = prompt("What year where you born?");
 console.log(yearBorn);
 
 //create variable for current year
-var currentYear = 2014
+var currentYear = 2014;
+
 
 //calculate the persons age- save calculation as variable
 
-var age = prompt(currentYear - yearBorn);
+var age = prompt(currentYear - yearBorn-1);
 
 console.log(age);
 
@@ -41,6 +42,18 @@ console.log(name + " you are "+age+ " years old.");
 
 //How old will you be in the future?
 
-var yearMore = prompt("How many years in the future would you like?");
-console.log(yearMore);
+var yearsMore = prompt("How many years in the future would you like?");
+console.log(yearsMore);
+
+//Cast a variable
+
+
+
+//Calculate future age
+
+var futureAge = age + Number(yearsMore);
+
+console.log(futureAge);
+
+
 
