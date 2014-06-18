@@ -9,12 +9,16 @@ Conditionals Personal
 //Creating variables for type of lie my ball was hit in.
 //if the ball was hit in the fairway print to the console, "Great Job!"
 
-var fairway = prompt("Did you hit the ball in the fairway?");
-var greatJob = (fairway);
-
-if(fairway){
-    alert("Great Job!");
-    console.log("Great Job!");
+var hitDriver = prompt("How many yards is the hole?");
+//variable ripIt designated to hit it hard!
+var ripIt = ();
+//variable for relax.
+var layUp = ();
+//creating conditional logic based on user generated information.
+if(hitDriver >= 250){
+    ripIt();
+}else{
+    layUp();
 }
 
 
