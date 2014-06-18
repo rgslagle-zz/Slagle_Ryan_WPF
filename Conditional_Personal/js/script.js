@@ -17,9 +17,16 @@ var hitDriver = (holeLength - normalHit);
 //creating conditional logic based on user generated information.
 if(hitDriver > 250){
     //If hitDriver var is greater than 250 than hit your driver.
-    alert("With only hitting your wedge " +  normalHit + " you have " + hitDriver + " yards you need to get there.  Hit your driver!");
-    console.log("With only hitting your wedge " +  normalHit + " you have " + hitDriver + " yards you need to get there.  Hit your driver!");
+    alert("With only hitting your wedge " +  normalHit + " yards you have " + hitDriver + " yards you need to get there.  Hit your driver!");
+    console.log("With only hitting your wedge " +  normalHit + " yards you have " + hitDriver + " yards you need to get there.  Hit your driver!");
+}else{
+    //If hitDriver var is less than 250 than choose any other club of your choice.
+    if(hitDriver < 250);
+    //Same alert but opposite the previous
+    alert("Since you hit your wedge " +  normalHit + " yards you have " + hitDriver + " yards you need to get there.  Club Down!");
+    console.log("Since you hit your wedge " +  normalHit + " yards you have " + hitDriver + " yards you need to get there.  Club Down!");
 }
+
 
 
 
