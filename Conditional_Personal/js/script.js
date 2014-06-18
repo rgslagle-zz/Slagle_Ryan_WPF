@@ -4,21 +4,18 @@ Conditionals Personal
  */
 
 //Create conditionals for something personal to me.
-//This will be based on checking variables to see if I am in a hazard or not in golf
 
-//Creating variables for type of lie my ball was hit in.
-//if the ball was hit in the fairway print to the console, "Great Job!"
+//prompted variable that gets the user to enter hole yardage.
+//If the hole is over 250 yards hit the driver...If not hit else.
 
-var hitDriver = prompt("How many yards is the hole?");
-//variable ripIt designated to hit it hard!
-var ripIt = ();
-//variable for relax.
-var layUp = ();
+var holeLength = prompt("How many yards is the hole?");
+
+
+
 //creating conditional logic based on user generated information.
-if(hitDriver >= 250){
-    ripIt();
-}else{
-    layUp();
+if(hitDriver){
+    //code performed if condition is greater than
+       console.log(hitDriver);
 }
 
 
