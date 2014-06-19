@@ -38,6 +38,50 @@ if(bowlOfFruit[0]==="Pear"){
 }
 
 
+if(bowlOfFruit[1]==="Pear"){
+
+    //count that fruit as a Pear
+    //add 1 to the variable totalNumPears
+    totalNumPears++;
+}else{
+    console.log("Fruit is not a Pear");
+
+}
+
+if(bowlOfFruit[2]==="Pear"){
+
+    //count that fruit as a Pear
+    //add 1 to the variable totalNumPears
+    totalNumPears++;
+}else{
+    console.log("Fruit is not a Pear");
+
+}
+
+
+if(bowlOfFruit[3]==="Pear"){
+
+    //count that fruit as a Pear
+    //add 1 to the variable totalNumPears
+    totalNumPears++;
+}else{
+    console.log("Fruit is not a Pear");
+
+}
+
+
+if(bowlOfFruit[4]==="Pear"){
+
+    //count that fruit as a Pear
+    //add 1 to the variable totalNumPears
+    totalNumPears++;
+}else{
+    console.log("Fruit is not a Pear");
+
+}
+console.log(totalNumPears+ " Total Pears In The Bowl");
+
+
 
 
 
