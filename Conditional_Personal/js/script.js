@@ -9,7 +9,14 @@ Conditionals Personal
 //If the hole is over 250 yards hit the driver...If not hit else.
 
 var holeLength = prompt("How many yards is the hole?");
+if(holeLength===""){
+    holeLength = prompt("How many yards is the hole?")
+}
+
 var normalHit = prompt("How far do you hit your Wedge?");
+if(normalHit===""){
+    normalHit = prompt("Seriously how far?")
+}
 
 var hitDriver = (holeLength - normalHit);
 

@@ -7,17 +7,17 @@ Conditional Industry
 //Creating conditional var for how many sales a company needs to buy supplies
 
 var supplies = prompt("How much does your order of supplies cost?");
-
+//In case the prompt is left blank
 if(supplies===""){
     supplies =prompt("Please tell us in dollars how much your supplies \nyou want cost!")
 }
 var eachSale = prompt("What is your average sale?");
-
+//Don't leave blank
 if(eachSale===""){
     eachSale = prompt("Again how much is your average sale?")
 }
 var expenses = prompt("How much do you have in other expenses?");
-
+//Seriously blank is not ok
 if(expenses===""){
     expenses = prompt("Please enter your monthly expenses.  \nBills Need Paid!")
 
