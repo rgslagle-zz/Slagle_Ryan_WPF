@@ -10,7 +10,7 @@ GoTo Training Week 3
 //Create our "fruit bowl"
 //Create an Array
 
-var bowlOfFruit = ["Apple", "Banana", "Pear", "Peach", "Pear"];
+var bowlOfFruit = ["Apple", "Banana", "Pear", "Peach", "Pear", "Apple", "Pear", "Tomato", "Pear"];
 
 console.log(bowlOfFruit);
 
@@ -37,7 +37,6 @@ if(bowlOfFruit[0]==="Pear"){
 
 }
 
-
 if(bowlOfFruit[1]==="Pear"){
 
     //count that fruit as a Pear
@@ -58,7 +57,6 @@ if(bowlOfFruit[2]==="Pear"){
 
 }
 
-
 if(bowlOfFruit[3]==="Pear"){
 
     //count that fruit as a Pear
@@ -68,8 +66,6 @@ if(bowlOfFruit[3]==="Pear"){
     console.log("Fruit is not a Pear");
 
 }
-
-
 if(bowlOfFruit[4]==="Pear"){
 
     //count that fruit as a Pear
@@ -81,7 +77,28 @@ if(bowlOfFruit[4]==="Pear"){
 }
 console.log(totalNumPears+ " Total Pears In The Bowl");
 
+//Create a loop for repetitive code
+//For Loop
+//Create var to hold pears
+var pearNumber = 0;
 
+for(var i = 0; i<bowlOfFruit.length; i++){
+    //This code will run when the condition is true
+    console.log("Inside Of Loop");
+    console.log(i);
+    console.log(bowlOfFruit[i]);
+
+    //Test each fruit if it is a pear
+    if(bowlOfFruit[i]==="Pear"){
+        //Add 1 to our pear total
+        pearNumber++
+        console.log("This fruit is a pear")
+    }
+
+
+}
+
+console.log(pearNumber + " Pears in your bowl");
 
 
 
