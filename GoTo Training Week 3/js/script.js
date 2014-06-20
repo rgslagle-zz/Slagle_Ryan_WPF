@@ -100,5 +100,31 @@ for(var i = 0; i<bowlOfFruit.length; i++){
 
 console.log(pearNumber + " Pears in your bowl");
 
+//Validating prompts
 
+//Ask User for Input
+
+var userInput = prompt("Please type in your name");
+//test if var is blank
+
+if(userInput===""){
+    //User left it blank
+    userInput = prompt("Please type in your name \nPlease don't leave blank")
+
+}
+
+//Test if it is a number
+
+//isNaN() - Function that test if it is not a number
+
+console.log(isNaN("test"));
+console.log(isNaN(7));
+
+var userNumInput = prompt("Type in any number");
+
+if(isNaN(userNumInput)){
+    console.log("Inside of Number test");
+    //Remind user to type in number
+    userNumInput = prompt("Type in any NUMBER");
+}
 
