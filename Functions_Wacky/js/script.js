@@ -11,3 +11,9 @@ Functions Wacky
 //An expression with two arithmetic operators
 //A function with three parameters.
 //At least one logical operator
+
+var functionName = function(){
+
+}
+
+functionName();
