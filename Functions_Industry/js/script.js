@@ -17,25 +17,34 @@ Functions Industry
 var attendance = prompt("Please type in a attendance of the game.");
 //validate
 while (isNaN(attendance)|| attendance===""){
-    minNumber = prompt("I need to know the games attendance.");
+    attendance = prompt("I need to know the games attendance.");
 }
 
 var capacity = prompt("Please type in a max number of people \nallowed in the stadium.");
 //validate
 while (isNaN(capacity)|| capacity===""){
-    minNumber = prompt("Please type in a maximum number of people\nallowed in the stadium.");
+    capacity = prompt("Please type in a maximum number of people\nallowed in the stadium.");
 }
 
+//Variable to catch the returned value
+var results = fireCode(attendance, capacity);
 
-var results = randomNumber(minNumber, maxNumber);
-alert("Your Random Number Is" + results);
+
+
+if(results >= 0){
+    alert("Enjoy The Game");
+}else if(results >=-100){
+    alert("Get a permit and your ok!");
+}else{
+    alert("Some fans need to leave.");
+}
 console.log(results);
+
 
 //Create a function
 
 function fireCode(present, allowed){
-    //generate random number
-    var safe = allowed-present;
+    var safe = allowed - present;
     //Return value
     return(safe);
 }
