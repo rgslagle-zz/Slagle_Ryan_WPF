@@ -15,21 +15,19 @@ Functions Wacky
 var winningGames = prompt("How many wins does your team have?");
 
 while (isNaN(winningGames)|| winningGames==="") {
-    minNumber = prompt("Please type in a minimum number.");
+    winningGames = prompt("Please type in a minimum number.");
 }
 var lossingGames = prompt("How many losses does your team have?");
 while (isNaN(lossingGames)|| lossingGames==="") {
-    minNumber = prompt("Please type in a minimum number.");
+    lossingGames = prompt("Please type in a minimum number.");
 }
 
 function totalGames(){//Creating a basic function
     var wins = winningGames;//variables within the function
-    var losses = lossingGames;
-    var gamesPlayed = Number(wins) + Number(losses);
+    var lose = lossingGames;
+    var gamesPlayed = Number(wins) + Number(lose);
     console.log(gamesPlayed);
 }
-
-
 
 
 totalGames(Number(winningGames + lossingGames));//Invoking the function
