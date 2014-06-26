@@ -19,7 +19,7 @@ var distance = prompt("How many miles are you going?");
 while (isNaN(distance)|| distance==="") {
     distance = prompt("Your speed of travel is needed in order to\ndetermine trip time.\nPlease enter how fast you will be traveling in MPH");
 }
-//Anonymous Functions
+//Anonymous Function
 var driveTime = function(distance, speed){
     var travel = distance/speed * 60;
     return(travel);
