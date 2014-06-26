@@ -14,31 +14,30 @@ Functions Industry
 
 //Get numbers from the user
 
-var minNumber = prompt("Please type in a minimum number.");
+var attendance = prompt("Please type in a attendance of the game.");
 //validate
-while (isNaN(minNumber)|| minNumber===""){
-    minNumber = prompt("Please type in a minimum number.");
+while (isNaN(attendance)|| attendance===""){
+    minNumber = prompt("I need to know the games attendance.");
 }
 
-var maxNumber = prompt("Please type in a max number.");
+var capacity = prompt("Please type in a max number of people \nallowed in the stadium.");
 //validate
-while (isNaN(maxNumber)|| maxNumber===""){
-    minNumber = prompt("Please type in a maximum number.");
+while (isNaN(capacity)|| capacity===""){
+    minNumber = prompt("Please type in a maximum number of people\nallowed in the stadium.");
 }
 
-//Call Function
-//With Arguments
-//randomNumber(20,50);
-//randomNumber(0, 5);
 
-randomNumber(minNumber, maxNumber);
-
+var results = randomNumber(minNumber, maxNumber);
+alert("Your Random Number Is" + results);
+console.log(results);
 
 //Create a function
 
-function randomNumber(minNum, maxNum){
+function fireCode(present, allowed){
     //generate random number
-    var random = Math.random()*(maxNum-minNum)+Number(minNumber);
-    console.log(random);
+    var safe = allowed-present;
+    //Return value
+    return(safe);
 }
+
 

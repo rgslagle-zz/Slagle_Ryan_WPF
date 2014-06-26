@@ -13,16 +13,23 @@ Functions Wacky
 //At least one logical operation
 
 var winningGames = prompt("How many wins does your team have?");
-var lossingGames = prompt("How many losses does your team have?");
-function totalGames(){//Creating a basic function
-    var wins = winningGames;//variables within the function
-    var losses = lossingGames;
-    var gamesPlayed = wins + losses;
-    console.log(gamesPlayed);
-}
 
-while (isNaN(minNumber)|| minNumber===""){
+while (isNaN(winningGames)|| winningGames==="") {
+    minNumber = prompt("Please type in a minimum number.");
+}
+var lossingGames = prompt("How many losses does your team have?");
+while (isNaN(lossingGames)|| lossingGames==="") {
     minNumber = prompt("Please type in a minimum number.");
 }
 
-totalGames();//Invoking the function
+function totalGames(){//Creating a basic function
+    var wins = winningGames;//variables within the function
+    var losses = lossingGames;
+    var gamesPlayed = Number(wins) + Number(losses);
+    console.log(gamesPlayed);
+}
+
+
+
+
+totalGames(Number(winningGames + lossingGames));//Invoking the function
