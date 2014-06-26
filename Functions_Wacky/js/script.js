@@ -29,5 +29,6 @@ function totalGames(){//Creating a basic function
     console.log(gamesPlayed);
 }
 
-
 totalGames(Number(winningGames + lossingGames));//Invoking the function
+
+(winningGames > lossingGames) ? alert("Great Season!") : alert("Better Luck Next Year!")
